@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="common.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=Open+Sans:wght@300;700&family=Poppins:wght@200&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="home">
+    <div class="container">
+      <nav class="nav-container">
+        <div class="nav-wrapper-1">
+          <ul>
+            <li><a href="#">Serviciu Clienți</a></li>
+            <li><a href="#">Găsește magazin</a></li>
+            <li><a href="#" onclick="openWindowNewslwtter()">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="nav-wrapper-2">
+          <img
+            src="img/logo_transparent.png"
+            alt="Logo"
+            height="150px"
+            width="150px"
+            class="logo"
+          />
+        </div>
+        <div class="nav-wrapper-3">
+          <ul>
+            <li class="open-form" onclick="openWindowLogIn()">
+              Autentificare <i class="fa-regular fa-user"></i>
+            </li>
+            <li>
+              <a href="#">Favorite <i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                >Coș de cumpărături <i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="horizontal-line" />
+      <main class="main">
+        <div class="main-container-1">
+          <div class="menu">
+            <ul class="menu-ul">
+              <li class="dropdown_item">
+                <a href="#">Femei</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Bluze</a></li>
+                  <li><a href="#" class="dropdown__link">Tricouri</a></li>
+                  <li><a href="#" class="dropdown__link">Fuste</a></li>
+                  <li><a href="#" class="dropdown__link">Blugi</a></li>
+                  <li><a href="#" class="dropdown__link">Pantaloni</a></li>
+                  <li><a href="#" class="dropdown__link">Rochii</a></li>
+                  <li>
+                    <a href="#" class="dropdown__link">Costume de baie</a>
+                  </li>
+                  <li><a href="#" class="dropdown__link">Pantofi</a></li>
+                  <li><a href="#" class="dropdown__link">Accesorii</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown_item">
+                <a href="#">Bărbați</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Tricouri</a></li>
+                  <li><a href="#" class="dropdown__link">Bluze</a></li>
+                  <li><a href="#" class="dropdown__link">Blugi</a></li>
+                  <li><a href="#" class="dropdown__link">Pantaloni</a></li>
+                  <li><a href="#" class="dropdown__link">Articole plaja</a></li>
+                  <li><a href="#" class="dropdown__link">Pantofi</a></li>
+                  <li><a href="#" class="dropdown__link">Accesorii</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown_item">
+                <a href="#">Bebeluși</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Tricouri</a></li>
+                  <li><a href="#" class="dropdown__link">Bluze</a></li>
+                  <li><a href="#" class="dropdown__link">Blugi</a></li>
+                  <li><a href="#" class="dropdown__link">Pantaloni</a></li>
+                  <li><a href="#" class="dropdown__link">Articole plaja</a></li>
+                  <li><a href="#" class="dropdown__link">Pantofi</a></li>
+                  <li><a href="#" class="dropdown__link">Accesorii</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown_item">
+                <a href="#">Copii</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Tricouri</a></li>
+                  <li><a href="#" class="dropdown__link">Bluze</a></li>
+                  <li><a href="#" class="dropdown__link">Blugi</a></li>
+                  <li><a href="#" class="dropdown__link">Pantaloni</a></li>
+                  <li><a href="#" class="dropdown__link">Articole plaja</a></li>
+                  <li><a href="#" class="dropdown__link">Pantofi</a></li>
+                  <li><a href="#" class="dropdown__link">Accesorii</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown_item">
+                <a href="#">Articole Casă</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Lenjerii pat</a></li>
+                  <li>
+                    <a href="#" class="dropdown__link">Lumanari parfumate</a>
+                  </li>
+                  <li><a href="#" class="dropdown__link">Parfum camera</a></li>
+                  <li><a href="#" class="dropdown__link">Accesorii</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown_item">
+                <a href="#">Frumusețe</a>
+                <ul class="dropdown__menu">
+                  <li><a href="#" class="dropdown__link">Vezi tot</a></li>
+                  <li><a href="#" class="dropdown__link">Parfumuri</a></li>
+                  <li><a href="#" class="dropdown__link">Make-up</a></li>
+                  <li><a href="#" class="dropdown__link">Skin Care</a></li>
+                  <li>
+                    <a
+                      href="#"
+                      style="
+                        color: rgb(247, 48, 48) !important;
+                        font-weight: 600;
+                      "
+                      class="dropdown__link"
+                      >Reduceri</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-container-2">
+          <ul>
+            <li>Livrare în 2-5 zile lucrătoare</li>
+            <li>Devino membru pentru livrare gratuită</li>
+            <li>Recicleaza hainele vechi</li>
+          </ul>
+        </div>
+        <div class="main-container-3">
+          <h1>AICI GĂSEȘTI CELE MAI NOI OFERTE</h1>
+        </div>
+
+        <div class="main-container-4">
+          <div class="bg-image"></div>
+          <div class="bg-text"><h2>Cumpără acum cele mai noi ținute</h2></div>
+        </div>
+      </main>
+      <aside>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 9</div>
+            <img src="img/img2.jpg" style="width: 100%" />
+            <div class="text">Incălțăminte</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 9</div>
+            <img src="img/img3.jpg" style="width: 100%" />
+            <div class="text">Ținute Smart Casual</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img4.jpg" style="width: 100%" />
+            <div class="text">Ținute Office</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img5.jpg" style="width: 100%" />
+            <div class="text">Ținute Copii</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img6.jpg" style="width: 100%" />
+            <div class="text">Ținute Bebeluși</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img7.jpg" style="width: 100%" />
+            <div class="text">Ținute Bărbați</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img8.jpg" style="width: 100%" />
+            <div class="text">Ținute Bărbați</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 9</div>
+            <img src="img/img9.jpg" style="width: 100%" />
+            <div class="text">Beauty</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </aside>
+      <footer class="footer">
+        <h2>Shopping Store</h2>
+        <p>Toate drepturile rezervate</p>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,40 @@
+/* newsletter form */
+.form-newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+/* Style the input elements and the submit button */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#button-newsletter {
+  background-color: #37506c;
+  color: white;
+  border: none;
+}
+#button-newsletter:hover {
+  background-color: white;
+  color: #37506c;
+  border: #37506c solid 1px;
+}
+
+/* action form */
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

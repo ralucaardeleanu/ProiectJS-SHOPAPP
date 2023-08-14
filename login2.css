@@ -1,0 +1,182 @@
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container-form {
+  background-color: rgb(252, 252, 252);
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 5px #37506c;
+  width: 100%;
+  max-width: 650px;
+  min-height: 100vh;
+}
+
+/* placeholder styling */
+
+::placeholder {
+  font-size: 1.1rem;
+}
+
+/* close icon styling */
+
+.form-close {
+  position: absolute;
+  top: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.login-form {
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+/* icons */
+
+.icon {
+  padding-right: 5px;
+}
+
+/* FORM CONTROL */
+
+/* FIELD FOR FORGOT PASSWORD AND REMEBER ME */
+
+.option-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Forgot Password */
+
+.form a {
+  color: #6ea0da;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* checkbox: Remember Me */
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  column-gap: 10px;
+}
+
+.checkbox input {
+  accent-color: #37506c;
+}
+
+.checkbox label {
+  color: black;
+  user-select: none;
+}
+
+.checkbox:hover {
+  font-size: 23px;
+  cursor: pointer;
+}
+
+input {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  padding: 30px;
+}
+
+.form-control {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  font-size: 1.3rem;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: #37506c solid 2px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  background-color: #37506c;
+  width: 80%;
+  padding: 10px;
+  color: rgb(252, 252, 252);
+  font-size: 1.7rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgb(252, 252, 252);
+  color: #37506c;
+}
+
+.sign-up-field {
+  text-align: center;
+}
+
+.sign-up-field a {
+  font-size: 19px;
+}

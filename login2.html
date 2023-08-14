@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=Open+Sans:wght@300;700&family=Poppins:wght@200&display=swap");
+    </style>
+    <link rel="stylesheet" href="login2.css" />
+    <link rel="stylesheet" href="common.css" />
+    <title>Autentificare</title>
+  </head>
+
+  <body>
+    <div class="container-form">
+      <form id="form" class="form">
+        <div class="logo-close">
+          <i class="fa-solid fa-x form-close" onclick="openWindowHome()"></i>
+          <img
+            src="img/logo_transparent.png"
+            alt="Logo"
+            height="150px"
+            width="150px"
+            class="logo"
+          />
+          <h2>LOGIN</h2>
+        </div>
+
+        <div class="form-control">
+          <label for="email"
+            ><i class="fa-regular fa-envelope icon"></i>Email</label
+          >
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password"
+            ><i class="fa-solid fa-lock icon"></i>Password</label
+          >
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <div class="option-field">
+          <span class="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">Remember Me</label>
+          </span>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit">Submit</button>
+        <div class="sign-up-field">
+          <p>
+            Don't have an account? <br />Click
+            <a href="sign-up.html">here</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="login2.js"></script>
+  </body>
+</html>

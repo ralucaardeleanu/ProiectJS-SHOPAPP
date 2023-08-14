@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="newsletter.css" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="/PROIECT JS/action.html"
+        method="POST"
+        class="form-newsletter"
+      >
+        <div class="container-newsletter">
+          <h2>Subscribe to our Newsletter</h2>
+        </div>
+
+        <div class="container-newsletter">
+          <input
+            type="text"
+            placeholder="Name"
+            id="name"
+            name="name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email address"
+            name="mail"
+            id="mail"
+            required
+          />
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="subscribe"
+              id="btn"
+            />
+            Daily Newsletter
+          </label>
+        </div>
+
+        <div class="container-newsletter">
+          <input
+            type="submit"
+            value="Subscribe"
+            id="button-newsletter"
+            onclick="handleSubmit()"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="newsletter.js"></script>
+  </body>
+</html>
