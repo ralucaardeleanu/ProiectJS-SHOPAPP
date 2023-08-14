@@ -1,7 +1,6 @@
 # ProiectJS-SHOPAPP
 
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/f8c89e0d-46db-4d61-9b39-cbf01c5ee365)
-![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/70b20245-8db0-4371-af33-74934ad3f7e4)
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/44dd42f1-bd76-4c29-9c54-5be1c2cce0f9)
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/e2429019-bde4-4ee6-9077-d7fa98c3e51a)
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/ff1d85f3-0ca8-4db5-bd93-9c72cca2866d)
