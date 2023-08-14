@@ -17,6 +17,8 @@
 
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/5541e1a6-8875-49a9-9e48-aeead515cead)
 ![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/b07f3c3d-0bc1-4543-86fe-349838b1c5c7)
+![image](https://github.com/ralucaardeleanu/ProiectJS-SHOPAPP/assets/125963665/2f9b4f09-e212-4a47-a459-43571283fc3f)
+
 
 
 
